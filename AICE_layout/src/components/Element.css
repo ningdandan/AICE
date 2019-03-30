@@ -1,0 +1,52 @@
+
+
+.element > * {
+    margin: 0.5rem;
+    display: inline-block;
+}
+.element-group > *{
+    width: 50px;
+} 
+
+.button-group{
+    float:right;
+}
+
+.element{
+    color: rgba(255, 255, 255, 0.5);
+    background: #656565;
+    border-left: 2px solid #9FC1FF;
+    border-radius: 1px 0 0 1px;;
+    border-radius: 1px;
+    margin: 2px 2px;
+}
+
+.element:hover{
+    color: #fff;
+    background: rgba(59,125,247,0.57);
+    border-left: 2px solid rgba(255,255,255,0.20);
+}
+
+button {
+    text-align: right;
+    background: transparent;
+    border: 0;
+}
+
+button:hover{
+    color:#3B7DF7;
+}
+
+.element-input{
+    border:0;
+    border-radius: 2px;
+    background:transparent;
+}
+
+.element-input:focus{
+    border:0;
+    border-radius: 2px;
+    background:#9e9e9e;
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AICE tutorial test</title>
+	<meta name="description" content="Scrollama: Sticky Overlay Example">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' href='./style.css'>
+</head>
+
+<body>
+	<div class="header">
+			<div class="progress-container">
+				<div class="progress-bar" id="myBar"></div>
+			</div> 
+	</div>
+
+	<main>
+		<section id='intro'>
+			<h1 class='intro__hed'>AICE tutorial</h1>
+			<p class='intro__dek'>
+				Start scrolling to see how it works.
+			</p>
+		</section>
+
+		<section id='scrolly'>	
+			<article>
+				<div class='step' data-step='./img/img001.png'>
+					<h3>1/10 Drawing Circuit</h3>
+					<p>Using surveys, satellite images and categorizations from various government agencies, the U.S. Department of Agriculture divides the U.S. into six major types of land. The data can’t be pinpointed to a city block</p>
+				</div>
+				<div class='step' data-step='./img/img002.png'>
+					<h3>2/10 修改电路参数</h3>
+					<p>中文的效果，感觉还行哦</p>
+				</div>
+				<div class='step' data-step='./img/img003.png'>
+					<p>this is the instruction3</p>
+				</div>
+				<div class='step' data-step='./img/img004.png'>
+					<p>this is the instruction4</p>
+				</div>
+				<div class='step' data-step='./img/img005.png'>
+					<p>this is the instruction5</p>
+				</div>
+				<div class='step' data-step='./img/img006.png'>
+					<p>this is the instruction6</p>
+				</div>
+				<div class='step' data-step='./img/img007.png'>
+					<p>this is the instruction7</p>
+				</div>
+			</article>
+			<figure>
+					<img src="./img/img001.png" alt="img001" id="scroll-image"> 
+					<!-- <p>1</p> -->
+			</figure>
+		</section>
+
+		<div class='bottom-nav'>
+			<button class='main-button'>
+					<span>Start Play!</span>
+			</button>
+		</div>
+		<section id='outro'></section>
+	</main>
+	
+	<!-- <div class='debug'></div> -->
+	<script src='https://unpkg.com/d3@5.9.1/dist/d3.min.js'></script>
+	<script src='https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js'></script>
+	<script src='./stickyfill.min.js'></script>
+	<script src='./scrollama.min.js'></script>
+	<script src='./overlayscrolling.js'></script>
+</body>
+
+</html>

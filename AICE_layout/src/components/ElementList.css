@@ -1,0 +1,32 @@
+.ant-tabs{
+    color: #fff;
+}
+.ant-tabs-content {
+height: 320px;
+margin-top: -16px;
+}
+.ant-tabs-content > .ant-tabs-tabpane {
+padding: 10px;
+}
+
+
+.netlist-button{
+    display: inline-block;
+}
+
+.netlist-input{
+    display: block;
+    height:240px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    background: #656565;
+    border:0;
+    border-radius: 1px;
+    margin: 2px 2px;
+}
+
+.netlist-input:hover{
+    color: #fff;
+    background: rgba(59,125,247,0.57);
+
+}

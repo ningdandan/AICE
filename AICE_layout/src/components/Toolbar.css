@@ -1,0 +1,28 @@
+
+
+.toolbar{
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(186,186,186,0.50);
+    border-radius: 1px;
+    margin: 10px;
+}
+
+.toolbar button{
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.vertical{
+    color:grey;
+}
+
+.toolbar .slider{
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.toolbar .inputnumber{
+    display: inline-block;
+    padding: 8px 10px;
+}
+

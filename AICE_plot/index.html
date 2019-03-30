@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D3 - Line Chart - continuous function</title>
+    <!-- script type="text/javascript" src="https://raw.github.com/jquery/sizzle/master/sizzle.js"></script -->
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.min.js"></script>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.time.min.js"></script>
+    
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+    </script>
+    <link rel='stylesheet' href='./d3js.css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class='row main-view'>
+    <div class='col-sm-4 control-view'>
+        <p>
+            $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+        </p>
+
+      <label class="switch">
+          <input type="checkbox" id="check-box" value="1">
+          <span class="slider round"></span>
+      </label>
+
+      <form class="cf">
+          <div class="half left cf">
+            <div>
+              <label>variable1</label>
+              <input type="number" step=0.5 id="input-1" placeholder="miu" value="1">
+            </div>
+            <label>variable2</label>
+            <input type="number" step=0.1 id="input-2" placeholder="miu" value="0.1">
+            <label>variable3</label>
+            <input type="number" step=0.5 id="input-3" placeholder="vgs">
+          </div>
+      <form>
+      
+
+    </div>
+
+
+    <div class='col-sm-4 graph-view'>
+      
+    </div>
+  </div>
+
+
+    <script src="./d3js.js"> </script>
+  </body>
+</html>
